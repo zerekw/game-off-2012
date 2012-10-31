@@ -2,10 +2,11 @@ This is a game. It's kind of like a MUD. It has something about forks or branche
 
 # INSTALLATION INSTRUCTIONS
 * clone the repo
+* npm install
 
 # HOW TO USE
 * node app.js
-* Horse Dance! (eehhhhhhhhh sexxxay lady!)
+* Horse Dance! (haaaaaaaaaaaaay sexxxay lady!)
 
 # DEPENDENCIES
 * Node 0.8.14
