@@ -1,0 +1,14 @@
+{
+  "name": "MUDnode",
+  "author": "Brian Arnold, Geoff Petrie, Zerek Welz",
+  "version": "0.1.0",
+  "description": "A game for the GitHub Game Off 2012",
+  "repository": {
+	"type":"git",
+	"url":"https://github.com/ABQJS/game-off-2012"
+  },
+  "dependencies": {
+	"express": "3.x",
+	"socket.io": "0.9"
+  }
+}
