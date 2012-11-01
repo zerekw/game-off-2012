@@ -1,5 +1,5 @@
 {
-	"name": "MUDnode",
+	"name": "MUDnode Client",
 	"description": "A game for the GitHub Game Off 2012",
 	"version": "0.1.0",
 	"homepage": "https://github.com/ABQJS/game-off-2012",
@@ -17,26 +17,11 @@
 			"url": "https://github.com/ABQJS/game-off-2012/blob/master/LICENSE-MIT"
 		}
 	],
-	"engines": {
-		"node": "0.8.x"
-	},
-	"scripts": {
-		"test": "grunt test"
-	},
-	"bin": {
-		"build": "./bin/build.sh"
-	},
-	"dependencies": {
-		"express": "3.x",
-		"socket.io": "0.9"
-	},
-	"devDependencies": {
-		"grunt": "~0.3.17",
-		"stylus": "0.30.x"
-	},
+	"main": "main",
 	"keywords": [
 		"github",
 		"MUD",
 		"Dojo"
-	]
+	],
+	"dojoBuild": "package.js"
 }

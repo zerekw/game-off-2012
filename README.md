@@ -1,14 +1,10 @@
-This is a game. It's kind of like a MUD. It has something about forks or branches or cloning or pushing or pulling.
+# MUDnode something something
 
-# INSTALLATION INSTRUCTIONS
-* clone the repo
-* npm install
+This is a game. It's kind of like a MUD. It has something about forks or branches or cloning or pushing or pulling. Still figuring out that part.
 
-# HOW TO USE
-* node app.js
+## Getting started
+* Clone the repo
+* `git submodule update --init --recursive`
+* `npm install`
+* `node server`
 * Horse Dance! (haaaaaaaaaaaaay sexxxay lady!)
-
-# DEPENDENCIES
-* Node 0.8.14
-* ExpressJS 3.x
-* Socket.io 0.9
