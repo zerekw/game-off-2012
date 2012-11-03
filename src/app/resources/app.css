@@ -1,1 +1,6 @@
-/* Nothing just yet */
+/* Bring in some Source Code Pro goodness */
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+.app {
+	font-family: 'Source Code Pro', sans-serif;
+}

@@ -1,15 +1,22 @@
 /**
  * This is our main application file, where all the everything else gets spun up. Woo!
  */
-define([], function(){
-	// Our application singleton
+define([
+	"socket.io",
+	"./ui/Desktop"
+], function(io, AppUI){
 	var app = {};
 
-	// Not really doing... anything just yet
+	// Make a UI!
 	app.init = function(){
-		var div = document.createElement('div');
-		div.innerHTML = 'Hello World!';
-		document.body.appendChild(div);
+		// Set up our socket
+		var socket = this.socket = io.connect();
+
+		// Instantiate our primary UI
+		var ui = this.ui = new AppUI({
+			socket: socket
+		}).placeAt(document.body);
+		ui.startup();
 	};
 
 	return app;

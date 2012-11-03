@@ -21,7 +21,11 @@ require({
 		'dojo',
 		'dijit',
 		'dojox',
-		'app'
+		'app',
+		{
+			name: "socket.io",
+			main: "socket.io"
+		}
 	],
 
 	// Use the 'lite' selector engine because we really don't care about oldIE
