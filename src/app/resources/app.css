@@ -1,6 +1,21 @@
 /* Bring in some Source Code Pro goodness */
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
 
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .app {
+	width: 100%;
+	height: 100%;
+	background: #000;
 	font-family: 'Source Code Pro', sans-serif;
+	color: #0f0;
+}
+
+.app ul {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
 }

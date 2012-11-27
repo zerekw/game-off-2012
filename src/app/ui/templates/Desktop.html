@@ -1,3 +1,13 @@
-<div>
-	<h1>Hello World!</h1>
+<div class="${baseClass}" data-dojo-type="dijit/layout/BorderContainer">
+	<ul data-dojo-attach-point="mudLog" data-dojo-prop="region:'center'" class="mudLog">
+		<li>Something happened!</li>
+		<li>Something happened!</li>
+		<li>Something happened!</li>
+		<li>Something happened!</li>
+		<li>Something happened!</li>
+		<li>Something happened!</li>
+	</ul>
+	<div data-dojo-type="dijit/layout/BorderContainer" data-dojo-prop="region:'bottom'" class="mudInputs">
+		<input type="text" data-dojo-type="dijit/form/TextBox" data-dojo-prop="region:'center'" data-dojo-attach-point="textInput" trim="true">
+	</div>
 </div>
